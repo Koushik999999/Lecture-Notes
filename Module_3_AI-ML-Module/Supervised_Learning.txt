@@ -1,0 +1,49 @@
+Supervised Learning
+
+ 
+--> Best fit line
+
+--> MSE (mean square error)--> Sum of square error
+
+--> chose the line with the lease MSE
+
+
+--> Gradient descent
+
+
+--> Two types of supervised learning 
+
+	--> Regression
+
+	--> Classification
+
+
+--> Regression
+
+	--> Independent variables
+
+	--> Dependent variables/ target variables
+
+
+	--> clean the data, clean corrupted/missing values
+
+
+	--> Outliers
+
+
+	--> Label encoding  --> random numbers to each label 
+
+	--> Ordinal encoding --> ordered number to the labels
+
+
+	--> Divide the data into training data and test data
+
+	--> Build the model with train data and test it with test data
+
+	--> called train-test-split
+
+	--> generally use 80% - 20% split
+
+	--> we do k-fold test to avoid accidentally selecting skewed data
+
+	 --> Take the average at the end of it
