@@ -1,0 +1,32 @@
+AI/ML Module 2nd class NLTK/Spacy 
+
+Text mining
+
+
+Generative AI
+
+Raw Text 
+
+	--> Cleaning
+	
+	--> convert everything to lower/upper case
+
+		--> called normalization
+
+	--> Tokenization
+	
+	--> I am running but ran so fast --> running and ran should be treated the same 
+
+		--> stemming
+		
+		--> lemma technique
+	
+	--> get parts of speech of each words
+
+
+Two packages
+
+	--> NLTK --> education/learning --> natural language tool kit
+
+	--> Spacy --> industry/production
+

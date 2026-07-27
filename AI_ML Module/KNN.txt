@@ -1,0 +1,41 @@
+KNN
+
+--> Used for multi class classification
+
+--> K Nearest neighbours
+
+	--> We get a point , choos hyperparameter(K here) as an odd number 
+
+	--> calculate the distance of our test point from all its neighbours and chose the k nearest neighbours, 
+	whichever is class has the highest number of points in those k points, out test point is classified into that class
+
+
+	--> Not like k-means, we don't update centroid after classifying the point 
+
+	--> K is very low --> over fitting
+
+	--> K is high --> under fitting
+
+
+
+LSH algorithm
+
+--> Locality sensitive hashing
+
+
+--> Pre compute and keep the values
+
+
+
+KNN based imputation
+
+
+-->  It's a technique to fill missing data
+
+--> Let's say there are 10 rows and 5 columns in each row
+
+--> if in 3rd column, 7th value is missing
+
+	--> take k nearest neighbours of 7th row (in this case lets say k = 3)
+
+	--> now replace the missing value with the average/median value of those particular rows in 3rd column
